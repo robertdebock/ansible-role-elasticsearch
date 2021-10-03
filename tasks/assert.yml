@@ -1,9 +1,9 @@
 ---
 
-- name: test if elasticseach_type is set correctly
+- name: test if elasticsearch_type is set correctly
   ansible.builtin.assert:
     that:
-      - elasticseach_type is defined
-      - elasticseach_type is string
-      - elasticseach_type in [ "elastic", "oss" ]
+      - elasticsearch_type is defined
+      - elasticsearch_type is string
+      - elasticsearch_type in [ "elastic", "oss" ]
     quiet: yes
