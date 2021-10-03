@@ -1,0 +1,21 @@
+---
+- name: Verify
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: check ports
+      ansible.builtin.wait_for:
+        port: "{{ item }}"
+      loop:
+        - 9200
+        - 9300
+
+    - name: check api
+      ansible.builtin.uri:
+        url: http://localhost:9200
+        return_content: yes
+      register: elasticsearch_test_one
+      failed_when:
+        - "'You Know, for Search' not in elasticsearch_test_one.content"
