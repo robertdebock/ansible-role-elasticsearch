@@ -14,7 +14,7 @@
 
     - name: check api
       ansible.builtin.uri:
-        url: http://localhost:9200
+        url: "http://localhost:9200/"
         return_content: yes
       register: elasticsearch_test_one
       failed_when:
