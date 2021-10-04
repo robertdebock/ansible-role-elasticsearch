@@ -11,17 +11,6 @@
     name: "{{ elasticsearch_packages }}"
     state: present
 
-
-# - name: configure elasticsearch
-#   ansible.builtin.template:
-#     src: elasticsearch.yml.j2
-#     dest: /etc/elasticsearch/elasticsearch.yml
-#     mode: "0660"
-#     owner: root
-#     group: elasticsearc
-#   notify:
-#     - restart elasticsearch
-
 - name: start elasticsearch
   ansible.builtin.service:
     name: elasticsearch
