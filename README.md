@@ -45,7 +45,7 @@ The default values for the variables are set in `defaults/main.yml`:
 
 # Elastic offers both "oss" (Apache 2.0 license) and "elastic"
 # (Elastic license). Select the type here. Either "oss" or "elastic"
-elasticseach_type: oss
+elasticsearch_type: oss
 ```
 
 ## [Requirements](#requirements)
