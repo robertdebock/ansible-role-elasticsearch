@@ -48,7 +48,7 @@ The default values for the variables are set in `defaults/main.yml`:
 elasticsearch_type: oss
 
 # The IP address to bind on.
-elasticsearch_network_host: 0.0.0.0
+elasticsearch_network_host: "0.0.0.0"
 
 # The port to bind on.
 elasticsearch_http_port: 9200
