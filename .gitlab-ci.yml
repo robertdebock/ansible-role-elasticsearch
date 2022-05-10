@@ -35,7 +35,7 @@ molecule:
       - image: "fedora"
         tag: "rawhide"
       - image: "ubuntu"
-        tag: "latest"
+        tag: "focal"
       - image: "ubuntu"
         tag: "bionic"
 
