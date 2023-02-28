@@ -5,4 +5,4 @@
 repository:
   description: Install and configure Elasticsearch on your system.
   homepage: https://robertdebock.nl/
-  topics: elasticsearch, ansible, molecule, tox, playbook, hacktoberfest
+  topics: elasticsearch, ansible, molecule, tox, playbook
