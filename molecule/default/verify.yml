@@ -5,14 +5,14 @@
   gather_facts: no
 
   tasks:
-    - name: check ports
+    - name: Check ports
       ansible.builtin.wait_for:
         port: "{{ item }}"
       loop:
         - 9200
         - 9300
 
-    - name: check api
+    - name: Check api
       ansible.builtin.uri:
         url: "http://localhost:9200/"
         return_content: yes
