@@ -13,6 +13,7 @@
     that:
       - elasticsearch_network_host is defined
       - elasticsearch_network_host is string
+      - elasticsearch_network_host is not none
     quiet: yes
 
 - name: assert | Test if elasticsearch_http_port is set correctly
