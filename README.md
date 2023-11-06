@@ -2,9 +2,9 @@
 
 Install and configure Elasticsearch on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-elasticsearch/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-elasticsearch/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-elasticsearch/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-elasticsearch)|[![quality](https://img.shields.io/ansible/quality/56420)](https://galaxy.ansible.com/robertdebock/elasticsearch)|[![downloads](https://img.shields.io/ansible/role/d/56420)](https://galaxy.ansible.com/robertdebock/elasticsearch)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-elasticsearch.svg)](https://github.com/robertdebock/ansible-role-elasticsearch/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-elasticsearch/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-elasticsearch/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-elasticsearch/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-elasticsearch)|[![downloads](https://img.shields.io/ansible/role/d/24488)](https://galaxy.ansible.com/robertdebock/elasticsearch)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-elasticsearch.svg)](https://github.com/robertdebock/ansible-role-elasticsearch/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -102,7 +102,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-elasticsearch/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-elasticsearch/issues).
 
 ## [License](#license)
 
