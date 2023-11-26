@@ -1,4 +1,4 @@
-# Ansible role [elasticsearch](#elasticsearch)
+# [Ansible role elasticsearch](#elasticsearch)
 
 Install and configure Elasticsearch on your system.
 
