@@ -9,7 +9,7 @@
 
 - name: Install elasticsearch
   ansible.builtin.package:
-    name: "{{ elasticsearch_packages }}"
+    name: elasticsearch
     state: present
 
 - name: Configure elasticsearch

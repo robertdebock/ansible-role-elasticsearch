@@ -46,10 +46,6 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 # defaults file for elasticsearch
 
-# Elastic offers both "oss" (Apache 2.0 license) and "elastic"
-# (Elastic license). Select the type here. Either "oss" or "elastic"
-elasticsearch_type: oss
-
 # The IP address to bind on.
 elasticsearch_network_host: "0.0.0.0"
 

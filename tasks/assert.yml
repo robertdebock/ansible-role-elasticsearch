@@ -1,13 +1,5 @@
 ---
 
-- name: assert | Test elasticsearch_type
-  ansible.builtin.assert:
-    that:
-      - elasticsearch_type is defined
-      - elasticsearch_type is string
-      - elasticsearch_type in [ "elastic", "oss" ]
-    quiet: yes
-
 - name: assert | Test elasticsearch_network_host
   ansible.builtin.assert:
     that:
